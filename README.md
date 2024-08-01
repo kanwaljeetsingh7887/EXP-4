@@ -31,11 +31,11 @@
  
 
 
-## Code: 3B
+## Code: 4
 ```
 //KANWALJEET SINGH
 //ENTC B2
-//EXP 3B
+//EXP 4
 //23070123124
 #include<iostream>
 using namespace std;
