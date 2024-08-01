@@ -1,50 +1,35 @@
 # EXP-4
-EXP 3
-Aim:
-To study and implement Operators in C++
 
-Software:
-Microsoft VSCode
+## Aim:
+**To study and implement C++ Bitwise Operators.**
 
-Theory:
-Opeartors in C++ are the symbols that are used two perform some mathematocalor logical operations on the variables. They are classified into 6 types:
+## Software:
+`Microsoft VSCode`
 
-1. Arithmetic Operators:
+## Theory:
+Bitwise operators perform operations on the `binary` representations of integers. They are useful for low-level programming tasks, such as manipulating data at the bit level or optimizing performance in critical sections of code.
 
-Addition (+): Adds two operands.
-Subtraction (-): Subtracts the second operand from the first.
-Multiplication (*): Multiplies two operands.
-Division (/): Divides the first operand by the second.
-Modulus (%): Returns the remainder of division.
-2. Relational Operators:
+**Overview of Bitwise Operators:**
 
-Equal to (==): Checks if two values are equal.
-Not equal to (!=): Checks if two values are not equal.
-Greater than (>): Checks if the first value is greater than the second.
-Less than (<): Checks if the first value is less than the second.
-Greater than or equal to (>=): Checks if the first value is greater than or equal to the second.
-Less than or equal to (<=): Checks if the first value is less than or equal to the second.
-3. Logical Operators:
+ **1. Bitwise AND `(&)`:**
+ Compares each bit of two operands; the result has a bit set to `1` only if both corresponding bits of the operands are `1`.
+ 
+ **2. Bitwise OR `(|)`:**
+ Compares each bit of two operands; the result has a bit set to `1` if either of the corresponding bits of the operands is `1`.
+ 
+ **3. Bitwise XOR `(^)`:**
+ Compares each bit of two operands; the result has a bit set to `1` if only one of the corresponding bits of the operands is `1`, but not both.
+ 
+ **4. Bitwise NOT `(~)`:**
+ Inverts all the bits of the operand. Each 0 becomes `1` and each 1 becomes `0`.
+ 
+ **5. Left Shift `(<<)`:**
+ Shifts the bits of the operand to the left by the specified number of positions. New bits on the right are set to `0`.
+ 
+ **6. Right Shift `(>>)`:**
+ Shifts the bits of the operand to the right by the specified number of positions. The sign bit is used for the new bits on the left `(arithmetic shift)`.
+ 
 
-Logical AND (&&): Returns true if both operands are true.
-Logical OR (||): Returns true if at least one operand is true.
-Logical NOT (!): Reverses the logical state of its operand.
-4. Assignment Operators:
-
-Simple assignment (=): Assigns the value on the right to the variable on the left.
-Add and assign (+=): Adds the right operand to the left operand and assigns the result to the left operand.
-Subtract and assign (-=): Subtracts the right operand from the left operand and assigns the result to the left operand.
-Multiply and assign (*=): Multiplies the left operand by the right operand and assigns the result to the left operand.
-Divide and assign (/=): Divides the left operand by the right operand and assigns the result to the left operand.
-Modulus and assign (%=): Takes the modulus using the left and right operands and assigns the result to the left operand.
-5. Bitwise Operators:
-
-AND (&): Performs a bitwise AND.
-OR (|): Performs a bitwise OR.
-XOR (^): Performs a bitwise XOR.
-NOT (~): Performs a bitwise NOT.
-Left Shift (<<): Shifts bits to the left.
-Right Shift (>>): Shifts bits to the right.
 
 ## Code: 3B
 ```
@@ -71,3 +56,6 @@ return 0;
 ```
 ## Output:
 ![image](https://github.com/user-attachments/assets/470c3df3-1a7b-4d9f-9075-229f0f4eeeda)
+
+## Conclusion:
+Bitwise Operators are essential for tasks such as implementing efficient algorithms, controlling hardware etc. We learned how to use Bitwise Operators and implement them efficiently in C++ programming.
