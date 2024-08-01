@@ -7,7 +7,7 @@
 `Microsoft VSCode`
 
 ## Theory:
-Bitwise operators perform operations on the `binary` representations of integers. They are useful for low-level programming tasks, such as manipulating data at the bit level or optimizing performance in critical sections of code.
+*Bitwise operators perform operations on the `binary` representations of integers. They are useful for low-level programming tasks, such as manipulating data at the bit level or optimizing performance in critical sections of code.*
 
 **Overview of Bitwise Operators:**
 
