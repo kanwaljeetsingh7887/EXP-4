@@ -1,7 +1,7 @@
 # EXP-4
 
 ## Aim:
-**To study and implement C++ Bitwise Operators.**
+_**To study and implement C++ Bitwise Operators.**_
 
 ## Software:
 `Microsoft VSCode`
